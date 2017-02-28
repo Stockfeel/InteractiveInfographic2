@@ -134,7 +134,7 @@ body {
   width: 368.054px;
   top: 111.679px;
   left: 3.352px;
-
+  z-index: 1;
 }
 #country {
   position: absolute;
@@ -162,20 +162,22 @@ body {
 #svg01People01 {
   position: absolute;
   width: 91.804px;
-  top: 400px;
-  left: 10px;
+  top: 352px;
+  left: 14px;
+  z-index: 1;
 }
 #svg01People02 {
   position: absolute;
   width: 71.233px;
   top: 288.755px;
-  left: 15.184px;
+  left: 17.184px;
 }
 #svg01People03 {
   position: absolute;
   width: 87.669px;
   top: 366.194px;
   left: 96.058px;
+  z-index: 1;
 }
 #svg01People04 {
   position: absolute;
@@ -185,9 +187,9 @@ body {
 }
 #svg01People05 {
   position: absolute;
-  width: 38.958px;
-  top: 322.476px;
-  left: 201.188px;
+  width: 47.958px;
+  top: 323.476px;
+  left: 197.188px;
 }
 #svg01People06 {
   position: absolute;
@@ -205,11 +207,11 @@ body {
   position: absolute;
   text-align: center;
   letter-spacing: 2px;
-  font-size: 0.9em;
+  font-size: 0.95em;
   line-height: 1.5em;
   /*width: 91px;*/
-  top: 507.413px;
-  left: 72px;
+  top: 490.413px;
+  left: 66px;
 }
 #svg01ScrollDown {
   position: absolute;
@@ -219,8 +221,6 @@ body {
 }
 #test {
   position: absolute;
-
-
   z-index: 999;
   top: 50%;
   left: 50%;
