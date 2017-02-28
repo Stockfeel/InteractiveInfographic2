@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+body {
+  font-family: 'Lato', 'Heiti TC', '儷黑 Pro', 'LiHei Pro', '微軟正黑體', 'Microsoft JhengHei';
+  font-style: normal;
+  line-height: 1.5em;
+}
+
+
+/*html,
+body {
+  margin : 0;
+  padding: 0;
+  height : 100%;
+}*/
+
+::selection {
+  background: #E74631;
+  color: #fff;
+}
+
+
+/* 導覽列點點顏色 */
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: #E74631;
+}
+
+
+/* 導覽列tooltip */
+
+#fp-nav ul:hover .fp-tooltip {
+  color: #E74631;
+  font-family: 'Lato', 'Heiti TC', '儷黑 Pro', 'LiHei Pro', '微軟正黑體', 'Microsoft JhengHei';
+  font-size: 16px;
+  margin-top: -4px;
+}
+
+
+.sceneContainer {
+  width: 375px;
+  height: 667px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -187.5px;
+  margin-top: -333.5px;
+}
+
+
+
+
+
+#svg01Cloud01 {
+  position: absolute;
+  width: 891.18px;
+  top: 368.88px;
+  left: -258.558px;
+  z-index: 5;
+}
+#svg01Cloud02 {
+  position: absolute;
+  width: 886.316px;
+  top: 277.152px;
+  left: -253.965px;
+  z-index: 3;
+}
+#svg01Cloud03 {
+  position: absolute;
+  width: 888.598px;
+  top: 104.339px;
+  left: -256.248px;
+  z-index: 2;
+}
+#svg01Cloud04 {
+  position: absolute;
+  width: 888.671px;
+  top: 111.502px;
+  left: -256.056px;
+  z-index: 1;
+}
+#svg01Cloud05 {
+  position: absolute;
+  width: 888.984px;
+  top: 115.025px;
+  left: -256.345px;
+}
+#svg01Plane {
+  position: absolute;
+  width: 358.554px;
+  top: 286.394px;
+  left: -60.583px;
+  z-index: 4;
+}
+#svg01WholeCharacter {
+  position: absolute;
+  /*width: 311.54px;*/
+  top: 280px;
+  left: 30px;
+}
+#svg01WholeCharacter div {
+  display: inline-block;
+}
+#svg01Character01 {
+  width: 37.322px;
+  padding-left: 5px;
+}
+#svg01Character02 {
+  width: 35.618px;
+  padding-left: 5px;
+}
+#svg01Character03 {
+  width: 37.654px;
+  padding-left: 5px;
+}
+#svg01Character04 {
+  width: 37.613px;
+  padding-left: 5px;
+}
+#svg01Character05 {
+  width: 37.197px;
+  padding-left: 5px;
+}
+#svg01Character06 {
+  width: 36.656px;
+  padding-left: 5px;
+}
+#svg01Character07 {
+  width: 37.155px;
+  padding-left: 5px;
+}
+#svg01ChinaVsJapan {
+  position: absolute;
+  width: 368.054px;
+  top: 111.679px;
+  left: 3.352px;
+
+}
+#country {
+  position: absolute;
+  top: 16.679px;
+  left: 3.352px;
+}
+#country span {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 85px;
+}
+#svg01Door {
+  position: absolute;
+  width: 169.49px;
+  top: 180.549px;
+  left: 102.7px;
+  z-index: 1;
+}
+#svg01Bg {
+  position: absolute;
+  width: 571.442px;
+  top: -18.71px;
+  left: -98.262px;
+}
+#svg01People01 {
+  position: absolute;
+  width: 91.804px;
+  top: 400px;
+  left: 10px;
+}
+#svg01People02 {
+  position: absolute;
+  width: 71.233px;
+  top: 288.755px;
+  left: 15.184px;
+}
+#svg01People03 {
+  position: absolute;
+  width: 87.669px;
+  top: 366.194px;
+  left: 96.058px;
+}
+#svg01People04 {
+  position: absolute;
+  width: 38.445px;
+  top: 322.476px;
+  left: 135.377px;
+}
+#svg01People05 {
+  position: absolute;
+  width: 38.958px;
+  top: 322.476px;
+  left: 201.188px;
+}
+#svg01People06 {
+  position: absolute;
+  width: 78.139px;
+  top: 382.006px;
+  left: 234.018px;
+}
+#svg01People07 {
+  position: absolute;
+  width: 70.764px;
+  top: 281.44px;
+  left: 290.694px;
+}
+#svg01BottomText {
+  position: absolute;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  /*width: 91px;*/
+  top: 507.413px;
+  left: 72px;
+}
+#svg01ScrollDown {
+  position: absolute;
+  width: 38px;
+  top: 616.158px;
+  left: 168.5px;
+}
+#test {
+  position: absolute;
+
+
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  margin-left: -187.5px;
+  margin-top: -333.5px;
+}
+#test img {
+  width: 375px;
+  height: 667px;
+  opacity: 0.5;
+}
