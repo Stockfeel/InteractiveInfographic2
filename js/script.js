@@ -75,51 +75,102 @@ $(document).ready(function() {
 
 
 
-      tlScrollDown.to("#svg01ScrollDown", 0.7, { y: 10, ease: Power1.easeOut });
+      tlScrollDown.to("#fullpagePhoneScenes .svg01ScrollDown", 0.7, { y: 10, ease: Power1.easeOut });
 
-      tlScene01.from("#svg01Cloud01", 0.6, { y: 100, opacity: 0 }, 0.3)
-               .from("#svg01Cloud02", 0.6, { y: 100, opacity: 0 }, 0.6)
-               .from("#svg01Cloud03", 0.6, { y: 100, opacity: 0 }, 0.9)
-               .from("#svg01Cloud04", 0.6, { y: 100, opacity: 0 }, 1.1)
-               .from("#svg01Cloud05", 0.6, { y: 100, opacity: 0 }, 1.3)
-               .fromTo("#svg01Plane", 4, { x: -1500, y: 500, scale: 2 }, { x: 1500, y: -500, scale: 0.2 }, 0.9)
-               .to(["#svg01Cloud01",
-                    "#svg01Cloud02",
-                    "#svg01Cloud03",
-                    "#svg01Cloud04",
-                    "#svg01Cloud05"
+      tlScene01.from("#fullpagePhoneScenes .svg01Cloud01", 0.6, { y: 100, opacity: 0 }, 0.3)
+               .from("#fullpagePhoneScenes .svg01Cloud02", 0.6, { y: 100, opacity: 0 }, 0.6)
+               .from("#fullpagePhoneScenes .svg01Cloud03", 0.6, { y: 100, opacity: 0 }, 0.9)
+               .from("#fullpagePhoneScenes .svg01Cloud04", 0.6, { y: 100, opacity: 0 }, 1.1)
+               .from("#fullpagePhoneScenes .svg01Cloud05", 0.6, { y: 100, opacity: 0 }, 1.3)
+               .fromTo("#fullpagePhoneScenes .svg01Plane", 4, { x: -1500, y: 500, scale: 2 }, { x: 1500, y: -500, scale: 0.2 }, 0.9)
+               .to(["#fullpagePhoneScenes .svg01Cloud01",
+                    "#fullpagePhoneScenes .svg01Cloud02",
+                    "#fullpagePhoneScenes .svg01Cloud03",
+                    "#fullpagePhoneScenes .svg01Cloud04",
+                    "#fullpagePhoneScenes .svg01Cloud05"
                     ], 0.8, { y: -1500, opacity: 0, ease: Back.easeIn.config(1.7) }, 2.8)
 
 
-               .from("#svg01Character01", 0.7, { y: -100, opacity: 0, scale: 3, ease: Power1.easeOut }, 3.6)
-               .from("#svg01Character02", 0.7, { y: -100, opacity: 0, scale: 3, ease: Power1.easeOut }, 3.8)
-               .from("#svg01Character03", 0.7, { y: -100, opacity: 0, scale: 3, ease: Power1.easeOut }, 4)
-               .from("#svg01Character04", 0.7, { y: -100, opacity: 0, scale: 3, ease: Power1.easeOut }, 4.2)
-               .from("#svg01Character05", 0.7, { y: -100, opacity: 0, scale: 3, ease: Power1.easeOut }, 4.4)
-               .from("#svg01Character06", 0.7, { y: -100, opacity: 0, scale: 3, ease: Power1.easeOut }, 4.6)
-               .from("#svg01Character07", 0.7, { y: -100, opacity: 0, scale: 3, ease: Power1.easeOut }, 4.8)
-               .to("#svg01WholeCharacter", 0.8, { y: -240, scale: 0.8, transformOrigin: '50% 50%', ease: Power1.easeOut }, 5.4)
+               .from("#fullpagePhoneScenes .svg01Character01", 0.7, { y: -100, opacity: 0, scale: 3, ease: Power1.easeOut }, 3.6)
+               .from("#fullpagePhoneScenes .svg01Character02", 0.7, { y: -100, opacity: 0, scale: 3, ease: Power1.easeOut }, 3.8)
+               .from("#fullpagePhoneScenes .svg01Character03", 0.7, { y: -100, opacity: 0, scale: 3, ease: Power1.easeOut }, 4)
+               .from("#fullpagePhoneScenes .svg01Character04", 0.7, { y: -100, opacity: 0, scale: 3, ease: Power1.easeOut }, 4.2)
+               .from("#fullpagePhoneScenes .svg01Character05", 0.7, { y: -100, opacity: 0, scale: 3, ease: Power1.easeOut }, 4.4)
+               .from("#fullpagePhoneScenes .svg01Character06", 0.7, { y: -100, opacity: 0, scale: 3, ease: Power1.easeOut }, 4.6)
+               .from("#fullpagePhoneScenes .svg01Character07", 0.7, { y: -100, opacity: 0, scale: 3, ease: Power1.easeOut }, 4.8)
+               .to("#fullpagePhoneScenes .svg01WholeCharacter", 0.8, { y: -240, scale: 0.8, transformOrigin: '50% 50%', ease: Power1.easeOut }, 5.4)
 
 
-               .from("#svg01ChinaVsJapan", 1, { y: -100, opacity: 0 }, 6.1)
+               .from("#fullpagePhoneScenes .svg01ChinaVsJapan", 1, { y: -100, opacity: 0 }, 6.1)
 
-               .from("#svg01Door", 0.4, { y: -100, opacity: 0 }, 6.2)
+               .from("#fullpagePhoneScenes .svg01Door", 0.4, { y: -100, opacity: 0 }, 6.2)
 
-               .from("#svg01Bg", 0.4, { y: -100, opacity: 0 }, 6.3)
+               .from("#fullpagePhoneScenes .svg01Bg", 0.4, { y: -100, opacity: 0 }, 6.3)
 
-               .from("#svg01People01", 0.4, { x: -100, opacity: 0 }, 6.4)
-               .from("#svg01People02", 0.4, { x: -100, opacity: 0 }, 6.5)
-               .from("#svg01People03", 0.4, { x: -100, opacity: 0 }, 6.6)
-               .from("#svg01People04", 0.4, { x: -100, opacity: 0 }, 6.7)
-               .from("#svg01People05", 0.4, { x: 100, opacity: 0 }, 6.8)
-               .from("#svg01People06", 0.4, { x: 100, opacity: 0 }, 6.9)
-               .from("#svg01People07", 0.4, { x: 100, opacity: 0 }, 7)
+               .from("#fullpagePhoneScenes .svg01People01", 0.4, { x: -100, opacity: 0 }, 6.4)
+               .from("#fullpagePhoneScenes .svg01People02", 0.4, { x: -100, opacity: 0 }, 6.5)
+               .from("#fullpagePhoneScenes .svg01People03", 0.4, { x: -100, opacity: 0 }, 6.6)
+               .from("#fullpagePhoneScenes .svg01People04", 0.4, { x: -100, opacity: 0 }, 6.7)
+               .from("#fullpagePhoneScenes .svg01People05", 0.4, { x: 100, opacity: 0 }, 6.8)
+               .from("#fullpagePhoneScenes .svg01People06", 0.4, { x: 100, opacity: 0 }, 6.9)
+               .from("#fullpagePhoneScenes .svg01People07", 0.4, { x: 100, opacity: 0 }, 7)
 
-               .from("#svg01BottomText", 0.4, BottomTextParameter, 7.1)
+               .from("#phoneScene01 .BottomText", 0.4, BottomTextParameter, 7.1)
 
-               .from("#svg01ScrollDown", 0.4, { y: 10, opacity: 0 }, 7.4);
+               .from("#fullpagePhoneScenes .svg01ScrollDown", 0.4, { y: 10, opacity: 0 }, 7.4);
 
 
+      tlScene02.from("#phoneScene02 .topLine", 0.6, topLineParameter, 0.5)
+               .from("#phoneScene02 .bottomLine", 0.6, bottomLineParameter, 0.5)
+               .from("#phoneScene02 .Heading", 0.3, HeadingParameter, 0.7)
+               .from("#phoneScene02 .subHeading", 0.4, subHeadingParameter, 0.8)
+
+
+               .from("#fullpagePhoneScenes .svg02Door", 0.4, { y: -100, opacity: 0 }, 1)
+      //---------------------------港澳
+               .to("#fullpagePhoneScenes .svg02PeopleHongKongAndMacao", 0.7, { y: 190, opacity: 1, ease: Power1.easeIn }, 1.4)
+               .to("#fullpagePhoneScenes .svg02PeopleHongKongAndMacao", 0.7, { x: -90, ease: Power1.easeOut }, 2.1)
+
+               .from("#fullpagePhoneScenes .svg02BubbleHongKongAndMacao", 0.6, { scale: 0, transformOrigin: '50% 50%', ease: Back.easeOut.config(1.7) }, 2.8)
+               .from("#fullpagePhoneScenes .svg02TextHongKongAndMacao", 0.4, { scale: 0, transformOrigin: '50% 50%' }, 3)
+
+
+               .call(animateNumberIncreasing, ["#fullpagePhoneScenes .svg02NumberHongKongAndMacao", 14.5, 1, 'percent']) //14.5 %
+
+               .from("#fullpagePhoneScenes .svg02NumberHongKongAndMacao", 0.4, { scale: 0, transformOrigin: '50% 50%' }, 3.5)
+      //---------------------------中國
+               .to("#fullpagePhoneScenes .svg02PeopleChina", 0.7, { y: 70, opacity: 1, ease: Power1.easeIn }, 1.9)
+               .to("#fullpagePhoneScenes .svg02PeopleChina", 0.7, { x: -140, ease: Power1.easeOut }, 2.6)
+
+               .from("#fullpagePhoneScenes .svg02BubbleChina", 0.6, { scale: 0, transformOrigin: '50% 50%', ease: Back.easeOut.config(1.7) }, 3.3)
+               .from("#fullpagePhoneScenes .svg02TextChina", 0.4, { scale: 0, transformOrigin: '50% 50%' }, 3.5)
+
+               .call(animateNumberIncreasing, ["#fullpagePhoneScenes .svg02NumberChina", 40.1, 1, 'percent']) //40.1 %
+
+               .from("#fullpagePhoneScenes .svg02NumberChina", 0.4, { scale: 0, transformOrigin: '50% 50%' }, 3.9)
+      //---------------------------日本
+               .to("#fullpagePhoneScenes .svg02PeopleJapan", 0.7, { y: 80, opacity: 1, ease: Power1.easeIn }, 2.4)
+               .to("#fullpagePhoneScenes .svg02PeopleJapan", 0.7, { x: 130, ease: Power1.easeOut }, 3.1)
+
+               .from("#fullpagePhoneScenes .svg02BubbleJapan", 0.6, { scale: 0, transformOrigin: '50% 50%', ease: Back.easeOut.config(1.7) }, 3.8)
+               .from("#fullpagePhoneScenes .svg02TextJapan", 0.4, { scale: 0, transformOrigin: '50% 50%' }, 4)
+
+               .call(animateNumberIncreasing, ["#fullpagePhoneScenes .svg02NumberJapan", 15.6, 1, 'percent']) //15.6 %
+
+               .from("#fullpagePhoneScenes .svg02NumberJapan", 0.4, { scale: 0, transformOrigin: '50% 50%' }, 4.4)
+      //---------------------------東南亞
+               .to("#fullpagePhoneScenes .svg02PeopleSoutheastAsia", 0.7, { y: 200, opacity: 1, ease: Power1.easeIn }, 2.9)
+               .to("#fullpagePhoneScenes .svg02PeopleSoutheastAsia", 0.7, { x: 115, ease: Power1.easeOut }, 3.6)
+
+               .from("#fullpagePhoneScenes .svg02BubbleSoutheastAsia", 0.6, { scale: 0, transformOrigin: '50% 50%', ease: Back.easeOut.config(1.7) }, 4.3)
+               .from("#fullpagePhoneScenes .svg02TextSoutheastAsia", 0.4, { scale: 0, transformOrigin: '50% 50%' }, 4.5)
+
+               .call(animateNumberIncreasing, ["#fullpagePhoneScenes .svg02NumberSoutheastAsia", 13.7, 1, 'percent']) //13.7 %
+
+               .from("#fullpagePhoneScenes .svg02NumberSoutheastAsia", 0.4, { scale: 0, transformOrigin: '50% 50%' }, 5.3)
+
+
+               .from("#phoneScene02 .BottomText", 0.4, BottomTextParameter, 5.2);
 
 
 
@@ -171,7 +222,7 @@ $(document).ready(function() {
             tlScrollDown.pause();
             break;
           case 2:
-            // tlScene02.pause();
+            tlScene02.pause();
             break;
           case 3:
             // tlScene03.pause();
@@ -209,7 +260,7 @@ $(document).ready(function() {
             tlScene01.play(0);
             break;
           case 2:
-            // tlScene02.play(0);
+            tlScene02.play(0);
             break;
           case 3:
             // tlScene03.play(0);

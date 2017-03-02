@@ -36,7 +36,6 @@ body {
   margin-top: -4px;
 }
 
-
 .sceneContainer {
   width: 375px;
   height: 667px;
@@ -51,182 +50,413 @@ body {
 
 
 
-#svg01Cloud01 {
+
+/* 共用CSS */
+#fullpagePhoneScenes .BottomText {
+  /*position: absolute;*/
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 0.95em;
+  line-height: 1.5em;
+  margin: 0 auto;
+  margin-top: 438px;
+}
+#fullpagePhoneScenes .topLine {
+  margin: 0 auto;
+  width: 95%;
+  height: 2px;
+  background-color: #000;
+  margin-top: 21px;
+}
+
+#fullpagePhoneScenes .bottomLine {
+  margin: 0 auto;
+  width: 95%;
+  height: 2px;
+  background-color: #000;
+}
+
+#fullpagePhoneScenes .Heading {
+  font-size: 0.9em;
+  margin: -10px auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+#fullpagePhoneScenes .subHeading {
+  margin: 0 auto;
+  text-align: center;
+  color: #5E5E5E;
+  font-size: 0.7em;
+  margin-top: -5px;
+}
+/* 共用CSS */
+
+
+/* Phone Scene01 */
+
+#phoneScene01 .svg01Cloud01 {
   position: absolute;
   width: 891.18px;
   top: 368.88px;
   left: -258.558px;
   z-index: 5;
 }
-#svg01Cloud02 {
+
+#phoneScene01 .svg01Cloud02 {
   position: absolute;
   width: 886.316px;
   top: 277.152px;
   left: -253.965px;
   z-index: 3;
 }
-#svg01Cloud03 {
+
+#phoneScene01 .svg01Cloud03 {
   position: absolute;
   width: 888.598px;
   top: 104.339px;
   left: -256.248px;
   z-index: 2;
 }
-#svg01Cloud04 {
+
+#phoneScene01 .svg01Cloud04 {
   position: absolute;
   width: 888.671px;
   top: 111.502px;
   left: -256.056px;
   z-index: 1;
 }
-#svg01Cloud05 {
+
+#phoneScene01 .svg01Cloud05 {
   position: absolute;
   width: 888.984px;
   top: 115.025px;
   left: -256.345px;
 }
-#svg01Plane {
+
+#phoneScene01 .svg01Plane {
   position: absolute;
   width: 358.554px;
   top: 286.394px;
   left: -60.583px;
   z-index: 4;
 }
-#svg01WholeCharacter {
+
+#phoneScene01 .svg01WholeCharacter {
   position: absolute;
   /*width: 311.54px;*/
   top: 280px;
   left: 30px;
 }
-#svg01WholeCharacter div {
+
+#phoneScene01 .svg01WholeCharacter div {
   display: inline-block;
 }
-#svg01Character01 {
+
+#phoneScene01 .svg01Character01 {
   width: 37.322px;
   padding-left: 5px;
 }
-#svg01Character02 {
+
+#phoneScene01 .svg01Character02 {
   width: 35.618px;
   padding-left: 5px;
 }
-#svg01Character03 {
+
+#phoneScene01 .svg01Character03 {
   width: 37.654px;
   padding-left: 5px;
 }
-#svg01Character04 {
+
+#phoneScene01 .svg01Character04 {
   width: 37.613px;
   padding-left: 5px;
 }
-#svg01Character05 {
+
+#phoneScene01 .svg01Character05 {
   width: 37.197px;
   padding-left: 5px;
 }
-#svg01Character06 {
+
+#phoneScene01 .svg01Character06 {
   width: 36.656px;
   padding-left: 5px;
 }
-#svg01Character07 {
+
+#phoneScene01 .svg01Character07 {
   width: 37.155px;
   padding-left: 5px;
 }
-#svg01ChinaVsJapan {
+
+#phoneScene01 .svg01ChinaVsJapan {
   position: absolute;
   width: 368.054px;
   top: 111.679px;
   left: 3.352px;
   z-index: 1;
 }
-#country {
+
+#phoneScene01 .country {
   position: absolute;
   top: 16.679px;
   left: 3.352px;
 }
-#country span {
+
+#phoneScene01 .country span {
   font-size: 25px;
   font-weight: bold;
   margin-left: 85px;
 }
-#svg01Door {
+
+#phoneScene01 .svg01Door {
   position: absolute;
   width: 169.49px;
   top: 180.549px;
   left: 102.7px;
   z-index: 1;
 }
-#svg01Bg {
+
+#phoneScene01 .svg01Bg {
   position: absolute;
   width: 571.442px;
   top: -18.71px;
   left: -98.262px;
 }
-#svg01People01 {
+
+#phoneScene01 .svg01People01 {
   position: absolute;
   width: 91.804px;
   top: 352px;
   left: 14px;
   z-index: 1;
 }
-#svg01People02 {
+
+#phoneScene01 .svg01People02 {
   position: absolute;
   width: 71.233px;
   top: 288.755px;
   left: 17.184px;
 }
-#svg01People03 {
+
+#phoneScene01 .svg01People03 {
   position: absolute;
   width: 87.669px;
   top: 366.194px;
   left: 96.058px;
   z-index: 1;
 }
-#svg01People04 {
+
+#phoneScene01 .svg01People04 {
   position: absolute;
   width: 38.445px;
   top: 322.476px;
   left: 135.377px;
 }
-#svg01People05 {
+
+#phoneScene01 .svg01People05 {
   position: absolute;
   width: 47.958px;
   top: 323.476px;
   left: 197.188px;
 }
-#svg01People06 {
+
+#phoneScene01 .svg01People06 {
   position: absolute;
   width: 78.139px;
   top: 382.006px;
   left: 234.018px;
 }
-#svg01People07 {
+
+#phoneScene01 .svg01People07 {
   position: absolute;
   width: 70.764px;
   top: 281.44px;
   left: 290.694px;
 }
-#svg01BottomText {
-  position: absolute;
-  text-align: center;
-  letter-spacing: 2px;
-  font-size: 0.95em;
-  line-height: 1.5em;
-  /*width: 91px;*/
-  top: 490.413px;
-  left: 66px;
-}
-#svg01ScrollDown {
+
+
+
+#phoneScene01 .svg01ScrollDown {
   position: absolute;
   width: 38px;
   top: 616.158px;
   left: 168.5px;
 }
+
+#phoneScene01 .BottomText {
+  margin-top: 505px;
+}
+
+
+/* Phone Scene02 */
+
+#phoneScene02 .bubbleText {
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* ----------Bubble---------- */
+
+#phoneScene02 .svg02BubbleHongKongAndMacao {
+  position: absolute;
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  background-color: #E74631;
+  top: 345.227px;
+  left: 109.156px;
+}
+
+#phoneScene02 .svg02BubbleChina {
+  position: absolute;
+  width: 132.873px;
+  height: 132.873px;
+  border-radius: 50%;
+  background-color: #E74631;
+  top: 203.114px;
+  left: 75.91px;
+}
+
+#phoneScene02 .svg02BubbleJapan {
+  position: absolute;
+  width: 88.978px;
+  height: 88.978px;
+  border-radius: 50%;
+  background-color: #E74631;
+  top: 288.227px;
+  left: 207.156px;
+}
+#phoneScene02 .svg02BubbleSoutheastAsia {
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background-color: #E74631;
+  top: 389.248px;
+  left: 197.611px;
+}
+
+/* ----------Text---------- */
+
+#phoneScene02 .svg02TextHongKongAndMacao {
+  margin: 0 auto;
+  font-size: 16px;
+  margin-top: 15px;
+}
+#phoneScene02 .svg02TextChina {
+  margin: 0 auto;
+  font-size: 22px;
+  margin-top: 28px;
+}
+#phoneScene02 .svg02TextJapan {
+  margin: 0 auto;
+  font-size: 18px;
+  margin-top: 15px;
+}
+#phoneScene02 .svg02TextSoutheastAsia {
+  margin: 0 auto;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+/* ----------Number---------- */
+
+#phoneScene02 .svg02NumberHongKongAndMacao {
+  margin: 0 auto;
+  font-size: 18px;
+  margin-top: -1px;
+}
+#phoneScene02 .svg02NumberChina {
+  margin: 0 auto;
+  font-size: 32.9176px;
+  margin-top: 13px;
+}
+#phoneScene02 .svg02NumberJapan {
+  margin: 0 auto;
+  font-size: 20px;
+  margin-top: 3px;
+}
+#phoneScene02 .svg02NumberSoutheastAsia {
+  margin: 0 auto;
+  font-size: 18px;
+  margin-top: -1px;
+}
+
+
+/* ----------People---------- */
+#phoneScene02 .svg02PeopleHongKongAndMacao {
+  width: 89.549px;
+}
+#phoneScene02 .svg02PeopleChina {
+  width: 68.663px;
+}
+#phoneScene02 .svg02PeopleJapan {
+  width: 81.375px;
+}
+#phoneScene02 .svg02PeopleSoutheastAsia {
+  width: 85.008px;
+}
+
+#phoneScene02 .people {
+  position: absolute;
+  top: 31%;
+  left: 41%;
+  opacity: 0;
+  z-index: 1;
+}
+
+
+
+#phoneScene02 .svg02Door {
+  position: absolute;
+  width: 164.345px;
+  top: 126.749px;
+  left: 105.762px;
+
+
+
+
+
+
+
+
+
+/* Phone Scene03 */
+
+
+/* Phone Scene04 */
+
+
+/* Phone Scene05 */
+
+
+/* Phone Scene06 */
+
+
+/* Phone Scene07 */
+
+
+/* Phone Scene08 */
+
+
+/* Phone Scene09 */
+
+
+/* Phone Scene10 */
+
 #test {
   position: absolute;
-  z-index: 999;
+  z-index: -1;
   top: 50%;
   left: 50%;
   margin-left: -187.5px;
   margin-top: -333.5px;
 }
+
 #test img {
   width: 375px;
   height: 667px;
