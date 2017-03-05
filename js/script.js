@@ -275,6 +275,91 @@ $(document).ready(function() {
 
 
 
+    tlScene05.from("#phoneScene05 .topLine", 0.6, topLineParameter, 0.5)
+             .from("#phoneScene05 .bottomLine", 0.6, bottomLineParameter, 0.5)
+             .from("#phoneScene05 .Heading", 0.3, HeadingParameter, 0.7)
+             .from("#phoneScene05 .subHeading", 0.4, subHeadingParameter, 0.8)
+
+
+             .from("#fullpagePhoneScenes .svg05BannerLong", 0.4, { y: 50, opacity: 0 }, 1)
+             .from("#fullpagePhoneScenes .svg05BannerChina", 0.4, { opacity: 0 }, 1.3)
+             .from("#fullpagePhoneScenes .svg05BannerJapan", 0.4, { opacity: 0 }, 1.3)
+
+             .from("#fullpagePhoneScenes .svg05LittleText", 0.4, { opacity: 0 }, 1.4)
+
+
+             .from("#fullpagePhoneScenes .svg05Floor01", 0.5, { opacity: 0, y: 40 }, 1.8)
+             .from("#fullpagePhoneScenes .svg05Floor02", 0.5, { opacity: 0, y: 40 }, 1.8)
+             .from("#fullpagePhoneScenes .svg05Floor03", 0.5, { opacity: 0, y: 40 }, 1.8)
+             .from("#fullpagePhoneScenes .svg05Floor04", 0.5, { opacity: 0, y: 40 }, 1.8)
+             .from("#fullpagePhoneScenes .svg05Floor05", 0.5, { opacity: 0, y: 40 }, 1.8)
+
+             .from("#fullpagePhoneScenes .svg05Floor01People", 0.8, { y: 50, opacity: 0 }, 2.1)
+             .from("#fullpagePhoneScenes .svg05Floor02People", 0.8, { y: 50, opacity: 0 }, 2.1)
+             .from("#fullpagePhoneScenes .svg05Floor03People", 0.8, { y: 50, opacity: 0 }, 2.1)
+             .from("#fullpagePhoneScenes .svg05Floor04People", 0.8, { y: 50, opacity: 0 }, 2.1)
+             .from("#fullpagePhoneScenes .svg05Floor05People", 0.8, { y: 50, opacity: 0 }, 2.1)
+
+             .from("#fullpagePhoneScenes .svg05LeftCar", 0.5, { scale: 0, transformOrigin: '50% 50%' }, 2.8)
+             .from("#fullpagePhoneScenes .svg05RightCar", 0.5, { scale: 0, transformOrigin: '50% 50%' }, 2.8)
+
+             .to("#fullpagePhoneScenes .svg05LeftCar", 2.5, { y: 600, ease: Power1.easeIn }, 2.8)
+             .to("#fullpagePhoneScenes .svg05RightCar", 2.5, { y: 600, ease: Power1.easeIn }, 2.8)
+
+
+    //----------------------------05 animated bar
+             .from("#fullpagePhoneScenes .svg05Floor05LeftBar", 0.4, { scaleX: 0, transformOrigin: '100% 50%' }, 3.2)
+             .from("#fullpagePhoneScenes .svg05Floor05RightBar", 0.4, { scaleX: 0, transformOrigin: '0% 50%' }, 3.2)
+
+             .call(animateNumberIncreasing, ["#fullpagePhoneScenes .svg05Floor05LeftNumber", 47.58, 2, 'dollar'], null, 3.2)
+             .call(animateNumberIncreasing, ["#fullpagePhoneScenes .svg05Floor05RightNumber", 16.57, 2, 'dollar'], null, 3.2)
+
+             .from("#fullpagePhoneScenes .svg05Floor05LeftNumber", 0.2, { scale: 0, opacity: 0, transformOrigin: '50% 50%' }, 3.6)
+             .from("#fullpagePhoneScenes .svg05Floor05RightNumber", 0.2, { scale: 0, opacity: 0, transformOrigin: '50% 50%' }, 3.6)
+
+    //----------------------------04 animated bar
+             .from("#fullpagePhoneScenes .svg05Floor04LeftBar", 0.4, { scaleX: 0, transformOrigin: '100% 50%' }, 3.4)
+             .from("#fullpagePhoneScenes .svg05Floor04RightBar", 0.4, { scaleX: 0, transformOrigin: '0% 50%' }, 3.4)
+
+             .call(animateNumberIncreasing, ["#fullpagePhoneScenes .svg05Floor04LeftNumber", 30.75, 2, 'dollar'], null, 3.4)
+             .call(animateNumberIncreasing, ["#fullpagePhoneScenes .svg05Floor04RightNumber", 2.01, 2, 'dollar'], null, 3.4)
+
+             .from("#fullpagePhoneScenes .svg05Floor04LeftNumber", 0.2, { scale: 0, opacity: 0, transformOrigin: '50% 50%' }, 3.8)
+             .from("#fullpagePhoneScenes .svg05Floor04RightNumber", 0.2, { scale: 0, opacity: 0, transformOrigin: '50% 50%' }, 3.8)
+    //----------------------------03 animated bar
+             .from("#fullpagePhoneScenes .svg05Floor03LeftBar", 0.4, { scaleX: 0, transformOrigin: '100% 50%' }, 3.9)
+             .from("#fullpagePhoneScenes .svg05Floor03RightBar", 0.4, { scaleX: 0, transformOrigin: '0% 50%' }, 3.9)
+
+             .call(animateNumberIncreasing, ["#fullpagePhoneScenes .svg05Floor03LeftNumber", 34.79, 2, 'dollar'], null, 3.9)
+             .call(animateNumberIncreasing, ["#fullpagePhoneScenes .svg05Floor03RightNumber", 38.70, 2, 'dollar'], null, 3.9)
+
+             .from("#fullpagePhoneScenes .svg05Floor03LeftNumber", 0.2, { scale: 0, opacity: 0, transformOrigin: '50% 50%' }, 4.3)
+             .from("#fullpagePhoneScenes .svg05Floor03RightNumber", 0.2, { scale: 0, opacity: 0, transformOrigin: '50% 50%' }, 4.3)
+
+    //----------------------------02 animated bar
+             .from("#fullpagePhoneScenes .svg05Floor02LeftBar", 0.4, { scaleX: 0, transformOrigin: '100% 50%' }, 4.2)
+             .from("#fullpagePhoneScenes .svg05Floor02RightBar", 0.4, { scaleX: 0, transformOrigin: '0% 50%' }, 4.2)
+
+             .call(animateNumberIncreasing, ["#fullpagePhoneScenes .svg05Floor02LeftNumber", 8.17, 2, 'dollar'], null, 4.2)
+             .call(animateNumberIncreasing, ["#fullpagePhoneScenes .svg05Floor02RightNumber", 7.33, 2, 'dollar'], null, 4.2)
+
+             .from("#fullpagePhoneScenes .svg05Floor02LeftNumber", 0.2, { scale: 0, opacity: 0, transformOrigin: '50% 50%' }, 4.6)
+             .from("#fullpagePhoneScenes .svg05Floor02RightNumber", 0.2, { scale: 0, opacity: 0, transformOrigin: '50% 50%' }, 4.6)
+    //----------------------------01 animated bar
+             .from("#fullpagePhoneScenes .svg05Floor01LeftBar", 0.4, { scaleX: 0, transformOrigin: '100% 50%' }, 4.5)
+             .from("#fullpagePhoneScenes .svg05Floor01RightBar", 0.4, { scaleX: 0, transformOrigin: '0% 50%' }, 4.5)
+
+             .call(animateNumberIncreasing, ["#fullpagePhoneScenes .svg05Floor01LeftNumber", 16.57, 2, 'dollar'], null, 4.5)
+             .call(animateNumberIncreasing, ["#fullpagePhoneScenes .svg05Floor01RightNumber", 1.91, 2, 'dollar'], null, 4.5)
+
+             .from("#fullpagePhoneScenes .svg05Floor01LeftNumber", 0.2, { scale: 0, opacity: 0, transformOrigin: '50% 50%' }, 4.9)
+             .from("#fullpagePhoneScenes .svg05Floor01RightNumber", 0.2, { scale: 0, opacity: 0, transformOrigin: '50% 50%' }, 4.9)
+
+
+             .from("#phoneScene05 .BottomText", 0.4, BottomTextParameter, 5.1);
+
+
+
 
 
 
@@ -324,7 +409,7 @@ $(document).ready(function() {
             tlScene04.pause();
             break;
           case 5:
-            // tlScene05.pause();
+            tlScene05.pause();
             break;
           case 6:
             // tlScene06.pause();
@@ -362,7 +447,7 @@ $(document).ready(function() {
             tlScene04.play(0);
             break;
           case 5:
-            // tlScene05.play(0);
+            tlScene05.play(0);
             break;
           case 6:
             // tlScene06.play(0);

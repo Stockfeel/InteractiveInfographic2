@@ -79,21 +79,28 @@ body {
 }
 
 #fullpagePhoneScenes .Heading {
-  font-size: 0.9em;
   margin: -10px auto;
+}
+#fullpagePhoneScenes .Heading h1 {
+  font-size: 20px;
   text-align: center;
   font-weight: bold;
 }
 
 #fullpagePhoneScenes .subHeading {
-  /*margin: 0 auto;*/
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 56px;
+}
+#fullpagePhoneScenes .subHeading h2 {
   position: absolute;
   width: 100%;
   text-align: center;
   color: #5E5E5E;
-  font-size: 0.7em;
-  top: 64px;
-  /*margin-top: -5px;*/
+  font-size: 14px;
+  font-weight: bold;
+  color: #5E5E5E;
 }
 /* 共用CSS */
 
@@ -196,7 +203,7 @@ body {
 #phoneScene01 .svg01ChinaVsJapan {
   position: absolute;
   width: 368.054px;
-  top: 111.679px;
+  top: 104.679px;
   left: 3.352px;
   z-index: 1;
 }
@@ -289,7 +296,7 @@ body {
 }
 
 #phoneScene01 .BottomText {
-  margin-top: 505px;
+  bottom: 65px;
 }
 
 
@@ -430,7 +437,7 @@ body {
   position: absolute;
   width: 320.44px;
   left: 26.91px;
-  top: 67.02px;
+  top: 55.02px;
 }
 #phoneScene03 .svg03GirlLeft {
   position: absolute;
@@ -622,12 +629,14 @@ body {
   width: 37.12px;
   left: 313.05px;
   top: 458.39px;
+  color: #FFF;
 }
 #phoneScene04 .svg04Floor01LeftNumber {
   position: absolute;
   width: 37.12px;
   left: 20.80px;
   top: 458.39px;
+  color: #FFF;
 }
 #phoneScene04 .svg04Floor02LeftNumber {
   position: absolute;
@@ -766,6 +775,280 @@ body {
 
 
 /* Phone Scene05 */
+#phoneScene05 .svg05Floor03RightNumber {
+  position: absolute;
+  width: 46.87px;
+  left: 302.42px;
+  top: 335.97px;
+  color: #FFF;
+}
+#phoneScene05 .svg05Floor01RightNumber {
+  position: absolute;
+  width: 38.17px;
+  left: 295.41px;
+  top: 457.78px;
+}
+#phoneScene05 .svg05Floor02RightNumber {
+  position: absolute;
+  width: 38.17px;
+  left: 304.17px;
+  top: 396.43px;
+}
+#phoneScene05 .svg05Floor04RightNumber {
+  position: absolute;
+  width: 38.17px;
+  left: 293.66px;
+  top: 275.01px;
+}
+#phoneScene05 .svg05Floor05RightNumber {
+  position: absolute;
+  width: 46.87px;
+  left: 317.95px;
+  top: 213.78px;
+}
+#phoneScene05 .svg05Floor01LeftNumber {
+  position: absolute;
+  width: 46.87px;
+  left: 20.52px;
+  top: 457.78px;
+}
+#phoneScene05 .svg05Floor02LeftNumber {
+  position: absolute;
+  width: 38.17px;
+  left: 44.14px;
+  top: 396.43px;
+}
+#phoneScene05 .svg05Floor03LeftNumber {
+  position: absolute;
+  width: 46.87px;
+  left: 44.14px;
+  top: 335.93px;
+}
+#phoneScene05 .svg05Floor04LeftNumber {
+  position: absolute;
+  width: 46.87px;
+  left: 49.41px;
+  top: 275.01px;
+}
+#phoneScene05 .svg05Floor05LeftNumber {
+  position: absolute;
+  width: 46.87px;
+  left: 23.02px;
+  top: 213.82px;
+  color: #FFF;
+}
+#phoneScene05 .svg05BannerJapan {
+  position: absolute;
+  width: 32.04px;
+  left: 266.10px;
+  top: 154.88px;
+}
+#phoneScene05 .svg05BannerChina {
+  position: absolute;
+  width: 31.01px;
+  left: 81.12px;
+  top: 156.34px;
+}
+#phoneScene05 .svg05BannerLong {
+  position: absolute;
+  width: 540.88px;
+  left: -79.52px;
+  top: 135.12px;
+}
+#phoneScene05 .svg05BannerJapan span{
+  position: absolute;
+  right: -42px;
+  top: -1px;
+  font-weight: bold;
+  font-size: 14px;
+}
+#phoneScene05 .svg05BannerChina span{
+  position: absolute;
+  left: -42px;
+  top: -1px;
+  font-weight: bold;
+  font-size: 14px;
+}
+#phoneScene05 .svg05BannerLong span{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+#phoneScene05 .svg05LittleText {
+  position: absolute;
+  font-weight: bold;
+  font-size: 12px;
+  color: #9E9F9F;
+  text-align: center;
+  width: 100%;
+  bottom: 134px;
+  z-index: 6;
+}
+#phoneScene05 .svg05RightCar {
+  position: absolute;
+  width: 29.08px;
+  left: 266.33px;
+  top: 197.82px;
+  z-index: 6;
+}
+#phoneScene05 .svg05LeftCar {
+  position: absolute;
+  width: 29.08px;
+  left: 82.78px;
+  top: 197.05px;
+  z-index: 6;
+}
+#phoneScene05 .svg05Floor01LeftBar {
+  position: absolute;
+  width: 28.73px;
+  left: 71.39px;
+  top: 460.29px;
+}
+#phoneScene05 .svg05Floor02LeftBar {
+  position: absolute;
+  width: 14.17px;
+  left: 85.95px;
+  top: 399.2px;
+}
+#phoneScene05 .svg05Floor03LeftBar {
+  position: absolute;
+  width: 61.21px;
+  left: 38.92px;
+  top: 338.1px;
+}
+#phoneScene05 .svg05Floor04LeftBar {
+  position: absolute;
+  width: 53.97px;
+  left: 46.15px;
+  top: 277px;
+}
+#phoneScene05 .svg05Floor05LeftBar {
+  position: absolute;
+  width: 83.59px;
+  left: 16.53px;
+  top: 215.9px;
+}
+#phoneScene05 .mask {
+  position: absolute;
+  top: 27px;
+  width: 100%;
+  background-color: #FFF;
+  height: 50px;
+  z-index: -1;
+}
+
+#phoneScene05 .svg05Floor01 {
+  position: absolute;
+  width: 141.17px;
+  left: 120.30px;
+  top: 465.62px;
+  z-index: 5;
+}
+#phoneScene05 .svg05Floor01People {
+  position: absolute;
+  width: 95.15px;
+  left: 25px;
+  top: -25px;
+  z-index: -2;
+}
+#phoneScene05 .svg05Floor02 {
+  position: absolute;
+  width: 141.28px;
+  left: 120.24px;
+  top: 408.05px;
+  z-index: 4;
+}
+#phoneScene05 .svg05Floor02People {
+  position: absolute;
+  width: 116.38px;
+  left: 11px;
+  top: -28px;
+  z-index: -2;
+}
+#phoneScene05 .svg05Floor03 {
+  position: absolute;
+  width: 141.39px;
+  left: 120.18px;
+  top: 346.34px;
+  z-index: 3;
+}
+#phoneScene05 .svg05Floor03People {
+  position: absolute;
+  width: 81.63px;
+  left: 30px;
+  top: -25px;
+  z-index: -2;
+}
+#phoneScene05 .svg05Floor04 {
+  position: absolute;
+  width: 141.51px;
+  left: 120.13px;
+  top: 285.4px;
+  z-index: 2;
+}
+#phoneScene05 .svg05Floor04People {
+  position: absolute;
+  width: 81.70px;
+  left: 30px;
+  top: -25px;
+  z-index: -2;
+}
+#phoneScene05 .svg05Floor05 {
+  position: absolute;
+  width: 141.72px;
+  left: 120.02px;
+  top: 225.59px;
+  z-index: 1;
+}
+#phoneScene05 .svg05Floor05People {
+  position: absolute;
+  width: 80.11px;
+  left: 30px;
+  top: -35px;
+  z-index: -2;
+}
+#phoneScene05 .floorText {
+  position: absolute;
+  font-weight: bold;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+  top: 8%;
+}
+
+#phoneScene05 .svg05Floor01RightBar {
+  position: absolute;
+  width: 3.48px;
+  left: 285.34px;
+  top: 460.29px;
+}
+#phoneScene05 .svg05Floor02RightBar {
+  position: absolute;
+  width: 12.95px;
+  left: 285.34px;
+  top: 399.2px;
+}
+#phoneScene05 .svg05Floor03RightBar {
+  position: absolute;
+  width: 68.50px;
+  left: 285.34px;
+  top: 338.1px;
+}
+#phoneScene05 .svg05Floor04RightBar {
+  position: absolute;
+  width: 3.86px;
+  left: 285.34px;
+  top: 277px;
+}
+#phoneScene05 .svg05Floor05RightBar {
+  position: absolute;
+  width: 29.28px;
+  left: 285.34px;
+  top: 215.9px;
+}
 
 
 /* Phone Scene06 */
