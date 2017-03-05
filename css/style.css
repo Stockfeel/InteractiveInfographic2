@@ -44,6 +44,7 @@ body {
   left: 50%;
   margin-left: -187.5px;
   margin-top: -333.5px;
+  overflow: hidden;
 }
 
 
@@ -55,13 +56,12 @@ body {
 #fullpagePhoneScenes .BottomText {
   position: absolute;
   text-align: center;
-  letter-spacing: 2px;
-  font-size: 0.95em;
+  letter-spacing: 1px;
+  font-size: 14px;
   line-height: 1.5em;
   bottom: 0px;
   width: 100%;
-/*  margin: 0 auto;
-  margin-top: 438px;*/
+  font-weight: bold;
 }
 #fullpagePhoneScenes .topLine {
   margin: 0 auto;
@@ -1052,9 +1052,302 @@ body {
 
 
 /* Phone Scene06 */
+#phoneScene06 .svg06HotelRightText {
+  position: absolute;
+  width: 120.73px;
+  left: 239.84px;
+  top: 428.19px;
+  color: #E74631;
+}
+#phoneScene06 .svg06HotelLeftText {
+  position: absolute;
+  width: 116.09px;
+  left: 30.56px;
+  top: 225.47px;
+  color: #E74631;
+}
+#phoneScene06 .svg06HotelRightText span {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+#phoneScene06 .svg06HotelLeftText span {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+#phoneScene06 .svg06HotelLeftNumber {
+  font-weight: bold;
+  font-size: 26px;
+}
+#phoneScene06 .svg06HotelRightNumber {
+  font-weight: bold;
+  font-size: 26px;
+}
+#phoneScene06 .svg06CarRight {
+  position: absolute;
+  width: 71.13px;
+  left: 281.10px;
+  top: 502.8px;
+}
+#phoneScene06 .svg06CarLeft {
+  position: absolute;
+  width: 89.57px;
+  left: 15.58px;
+  top: 337.3px;
+}
+#phoneScene06 .svg06MoneyLeft {
+  position: absolute;
+  width: 24.15px;
+  left: 156.94px;
+  top: 207.13px;
+}
+#phoneScene06 .svg06MoneyRight {
+  position: absolute;
+  width: 24.15px;
+  left: 198.90px;
+  top: 440.74px;
+}
+#phoneScene06 .svg06HotelLeft {
+  position: absolute;
+  width: 130.67px;
+  left: 189.39px;
+  top: 219.32px;
+}
+#phoneScene06 .svg06HotelRight {
+  position: absolute;
+  width: 130.67px;
+  left: 58.69px;
+  top: 395.74px;
+}
+#phoneScene06 .svg06HotelLeft span {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 71px;
+  font-weight: bold;
+}
+#phoneScene06 .svg06HotelRight span {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 66px;
+  font-weight: bold;
+}
+#phoneScene06 .svg06GroundLeft {
+  position: absolute;
+  width: 216.78px;
+  left: 37.50px;
+  top: 472.26px;
+}
+#phoneScene06 .svg06GroundRight {
+  position: absolute;
+  width: 216.78px;
+  left: 119.46px;
+  top: 302.48px;
+}
 
 
 /* Phone Scene07 */
+#phoneScene07 .svg07TextLittleRight {
+  position: absolute;
+  width: 48.00px;
+  left: 286.62px;
+  top: 312.75px;
+  color: #595757;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#phoneScene07 .svg07TextLittleLeft {
+  position: absolute;
+  width: 48.00px;
+  left: 46.00px;
+  top: 312.75px;
+  color: #E74631;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#phoneScene07 .svg07TextTouristRight {
+  position: absolute;
+  width: 50.90px;
+  left: 285.17px;
+  top: 287.16px;
+  color: #595757;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#phoneScene07 .svg07TextTouristLeft {
+  position: absolute;
+  width: 66.17px;
+  left: 36.92px;
+  top: 281.99px;
+  color: #E74631;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#phoneScene07 .svg07TextGeneralHotelRight {
+  position: absolute;
+  width: 81.25px;
+  left: 269.99px;
+  top: 433.33px;
+  color: #E74631;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#phoneScene07 .svg07TextInternationalHotelRight {
+  position: absolute;
+  width: 51.09px;
+  left: 285.07px;
+  top: 364.67px;
+  color: #E74631;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#phoneScene07 .svg07TextGeneralHotelLeft {
+  position: absolute;
+  width: 62.50px;
+  left: 38.75px;
+  top: 438.5px;
+  color: #595757;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#phoneScene07 .svg07TextInternationalHotelLeft {
+  position: absolute;
+  width: 62.50px;
+  left: 38.75px;
+  top: 367.8px;
+  color: #595757;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#phoneScene07 .svg07TextInternationalHotel {
+  position: absolute;
+  width: 105.60px;
+  left: 139.83px;
+  top: 363.36px;
+}
+#phoneScene07 .svg07TextInternationalHotel span {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  color: #9E9F9F;
+  line-height: 24px;
+}
+#phoneScene07 .svg07TextInternationalHotel span:first-child {
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+}
+#phoneScene07 .svg07TextTourist {
+  position: absolute;
+  width: 88.00px;
+  left: 151.63px;
+  top: 300.6px;
+}
+#phoneScene07 .svg07TextTourist span {
+  font-weight: bold;
+  font-size: 16px;
+}
+#phoneScene07 .svg07TextGeneralHotel {
+  position: absolute;
+  width: 105.60px;
+  left: 139.83px;
+  top: 443.61px;
+}
+#phoneScene07 .svg07TextGeneralHotel span {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  color: #9E9F9F;
+  line-height: 24px;
+}
+#phoneScene07 .svg07TextGeneralHotel span:first-child {
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+}
+#phoneScene07 .svg07TextChina {
+  position: absolute;
+  width: 50px;
+  left: 46.14px;
+  top: 191.47px;
+}
+#phoneScene07 .svg07TextJapan {
+  position: absolute;
+  width: 50px;
+  left: 286.50px;
+  top: 191.22px;
+}
+#phoneScene07 .svg07TextChina span{
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2px;
+}
+#phoneScene07 .svg07TextJapan span{
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2px;
+}
+#phoneScene07 .svg07TextChina img{
+  display: block;
+  width: 27.69px;
+  margin: 0 auto;
+}
+#phoneScene07 .svg07TextJapan img{
+  display: block;
+  width: 27.69px;
+  margin: 0 auto;
+}
+#phoneScene07 .svg07LineJapan {
+  position: absolute;
+  width: 78.00px;
+  height: 1px;
+  left: 271.50px;
+  top: 246.63px;
+  z-index: 1;
+  background-color: #000;
+}
+
+#phoneScene07 .svg07LineChina {
+  position: absolute;
+  width: 78.00px;
+  height: 1px;
+  left: 31.00px;
+  top: 247.6px;
+  z-index: 1;
+  background-color: #000;
+}
+
+
+#phoneScene07 .svg07GirlLeft {
+  position: absolute;
+  width: 143.88px;
+  left: 17.25px;
+  top: 85.88px;
+}
+#phoneScene07 .svg07GirlRight {
+  position: absolute;
+  width: 184.69px;
+  left: 178.14px;
+  top: 88.94px;
+}
 
 
 /* Phone Scene08 */
