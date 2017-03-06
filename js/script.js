@@ -419,9 +419,88 @@ $(document).ready(function() {
              .from("#phoneScene07 .BottomText", 0.4, BottomTextParameter);
 
 
+    tlScene09.from("#phoneScene09 .topLine", 0.6, topLineParameter, 0.5)
+             .from("#phoneScene09 .bottomLine", 0.6, bottomLineParameter, 0.5)
+             .from("#phoneScene09 .Heading", 0.3, HeadingParameter, 0.7)
+    
+             .from(["#phoneScene09 .svg09FlagChina", "#phoneScene09 .svg09FlagJapan"], 0.4, { y: -20, opacity: 0 }, 1)
+    
+             .from(["#phoneScene09 .svg09TextChina", "#phoneScene09 .svg09TextJapan"], 0.4, { y: -10, opacity: 0 }, 1.1)
+    
+             .from("#phoneScene09 .svg09Plane", 4, { y: -1200 }, 1.2)
+             .from("#phoneScene09 .svg09Runway", 3.2, { y: 600 }, 1.6)
+    
+    
+             .from("#phoneScene09 .svg09Text01", 0.4, { opacity: 0, y: -30 }, 2.4)
+             .from("#phoneScene09 .svg09Text02", 0.4, { opacity: 0, y: -30 }, 2.5)
+             .from("#phoneScene09 .svg09Text03", 0.4, { opacity: 0, y: -30 }, 2.6)
+             .from("#phoneScene09 .svg09Text04", 0.4, { opacity: 0, y: -30 }, 2.7)
+             .from("#phoneScene09 .svg09Text05", 0.4, { opacity: 0, y: -30 }, 2.8)
+             .from("#phoneScene09 .svg09Text06", 0.4, { opacity: 0, y: -30 }, 2.9)
+             .from("#phoneScene09 .svg09Text07", 0.4, { opacity: 0, y: -30 }, 3)
+             .from("#phoneScene09 .svg09Text08", 0.4, { opacity: 0, y: -30 }, 3.1)
+             .from("#phoneScene09 .svg09Text09", 0.4, { opacity: 0, y: -30 }, 3.2)
+    
+             .from("#phoneScene09 .svg09Divider", 0.4, { scaleX: 0, opacity: 0 }, 3.2)
+    
+    
+    
+             .from(["#phoneScene09 .svg09Text01Left", "#phoneScene09 .svg09Text01Right"], 0.4, { y: -10, opacity: 0 }, 2.5)
+             .from(["#phoneScene09 .svg09Text02Left", "#phoneScene09 .svg09Text02Right"], 0.4, { y: -10, opacity: 0 }, 2.6)
+             .from(["#phoneScene09 .svg09Text03Left", "#phoneScene09 .svg09Text03Right"], 0.4, { y: -10, opacity: 0 }, 2.7)
+             .from(["#phoneScene09 .svg09Text04Left", "#phoneScene09 .svg09Text04Right"], 0.4, { y: -10, opacity: 0 }, 2.8)
+             .from(["#phoneScene09 .svg09Text05Left", "#phoneScene09 .svg09Text05Right"], 0.4, { y: -10, opacity: 0 }, 2.9)
+             .from(["#phoneScene09 .svg09Text06Left", "#phoneScene09 .svg09Text06Right"], 0.4, { y: -10, opacity: 0 }, 3)
+             .from(["#phoneScene09 .svg09Text07Left", "#phoneScene09 .svg09Text07Right"], 0.4, { y: -10, opacity: 0 }, 3.1)
+             .from(["#phoneScene09 .svg09Text08Left", "#phoneScene09 .svg09Text08Right"], 0.4, { y: -10, opacity: 0 }, 3.2)
+             .from(["#phoneScene09 .svg09Text09Left", "#phoneScene09 .svg09Text09Right"], 0.4, { y: -10, opacity: 0 }, 3.3)
+    
+    
+             .call(animateNumberIncreasing, ["#phoneScene09 .svg09Text01Left", 40.1, 1, 'percent'], null, 2.5)
+             .call(animateNumberIncreasing, ["#phoneScene09 .svg09Text01Right", 15.6, 1, 'percent'], null, 2.5)
+             .call(animateNumberIncreasing, ["#phoneScene09 .svg09Text02Left", 82, 0, 'percent'], null, 2.6)
+             .call(animateNumberIncreasing, ["#phoneScene09 .svg09Text02Right", 73, 0, 'percent'], null, 2.6)
+             .call(animateNumberIncreasing, ["#phoneScene09 .svg09Text03Left", 227.58, 2, 'dollar'], null, 2.7)
+             .call(animateNumberIncreasing, ["#phoneScene09 .svg09Text03Right", 227.59, 2, 'dollar'], null, 2.7)
+             .call(animateNumberIncreasing, ["#phoneScene09 .svg09Text04Left", 52.74, 2, 'percent'], null, 2.8)
+             .call(animateNumberIncreasing, ["#phoneScene09 .svg09Text04Right", 18.32, 2, 'percent'], null, 2.8)
+             .call(animateNumberIncreasing, ["#phoneScene09 .svg09Text05Left", 157.42, 2, 'dollar'], null, 2.9)
+             .call(animateNumberIncreasing, ["#phoneScene09 .svg09Text05Right", 73.40, 1, 'dollar'], null, 2.9)
+    
+             .call(animateNumberIncreasing, ["#phoneScene09 .svg09Text07Left", 19.19, 2, 'percent'], null, 3)
+             .call(animateNumberIncreasing, ["#phoneScene09 .svg09Text07Right", 42.76, 2, 'percent'], null, 3)
+             .call(animateNumberIncreasing, ["#phoneScene09 .svg09Text08Left", 0.43, 2, 'number'], null, 3.1)
+             .call(animateNumberIncreasing, ["#phoneScene09 .svg09Text08Right", 0.88, 2, 'number'], null, 3.1)
+    
+    
+    
+    
+    
+             .from("#phoneScene09 .svg09Text01Win", 0.3, { y: -100, opacity: 0, scale: 3, transformOrigin: '50% 50%' }, 4)
+             .from("#phoneScene09 .svg09Text02Win", 0.3, { y: -100, opacity: 0, scale: 3, transformOrigin: '50% 50%' }, 4.2)
+             .from("#phoneScene09 .svg09Text03Win", 0.3, { y: -100, opacity: 0, scale: 3, transformOrigin: '50% 50%' }, 4.4)
+             .from("#phoneScene09 .svg09Text04Win", 0.3, { y: -100, opacity: 0, scale: 3, transformOrigin: '50% 50%' }, 4.6)
+             .from("#phoneScene09 .svg09Text05Win", 0.3, { y: -100, opacity: 0, scale: 3, transformOrigin: '50% 50%' }, 4.8)
+             .from("#phoneScene09 .svg09Text07Win", 0.3, { y: -100, opacity: 0, scale: 3, transformOrigin: '50% 50%' }, 5)
+             .from("#phoneScene09 .svg09Text08Win", 0.3, { y: -100, opacity: 0, scale: 3, transformOrigin: '50% 50%' }, 5.2);
 
 
-
+    tlScene10.from("#phoneScene10 .topLine", 0.6, topLineParameter, 0.5)
+             .from("#phoneScene10 .bottomLine", 0.6, bottomLineParameter, 0.5)
+             .from("#phoneScene10 .Heading", 0.3, HeadingParameter, 0.7)
+             .from("#phoneScene10 .subHeading", 0.4, subHeadingParameter, 0.8)
+    
+    //       .to($svg10Ground01, 2.8, {rotation: -180, transformOrigin: '50% 0%'}, 0.9)
+             .from("#phoneScene10 .svg10Earth", 4, { rotation: 180, transformOrigin: '50% 100%', ease: CustomEase.create("custom", "M0,0,C0.128,0.572,0.257,0.954,0.512,1.028,0.672,1.074,0.838,1,1,1") }, 1.3)
+    
+             .from("#phoneScene10 .svg10BubbleLeft", 0.4, { opacity: 0 }, 3.6)
+             .from("#phoneScene10 .svg10BubbleRight", 0.4, { opacity: 0 }, 3.7)
+    
+             .from("#phoneScene10 .svg10Light", 0.4, { scale: 0, transformOrigin: '0% 100%' }, 3.7)
+    
+             .from("#phoneScene10 .svg10TextSource", 0.3, { opacity: 0 }, 3.7)
+    
+             .from("#phoneScene10 .svg10Footer", 0.5, { y: 200 }, 3.8);
 
 
 
@@ -482,10 +561,10 @@ $(document).ready(function() {
             // chinaClickedButtonColorChange();
             break;
           case 9:
-            // tlScene09.pause();
+            tlScene09.pause();
             break;
           case 10:
-            // tlScene10.pause();
+            tlScene10.pause();
             break;
         }
         switch (nextIndex) {
@@ -518,10 +597,10 @@ $(document).ready(function() {
           //   });
             break;
           case 9:
-            // tlScene09.play(0);
+            tlScene09.play(0);
             break;
           case 10:
-            // tlScene10.play(0);
+            tlScene10.play(0);
             break;
         }
       }
