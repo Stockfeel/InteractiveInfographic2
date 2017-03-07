@@ -1473,16 +1473,164 @@ body {
   text-align: center;
   top: 25%;
 }
+#phoneScene08 .svg08ButtonChina {
+    left: 28px;
+    top: 79.32px;
+    
+}
+#phoneScene08 .svg08ButtonJapan {
+    left: 212px;
+    top: 79.32px;
+}
+#phoneScene08 .coolButton {
+    position: absolute;
+    width: 134.523px;
+    height: 29.632px;
+    background-color: #E74631;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+#phoneScene08 .coolButton span {
+    display: block;
+    padding-top:1px;
+}
+#phoneScene08 .coolButton:before {
+    content: '';
+    width: 21px;
+    height: 21px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 4.1px;
+    left: -11px;
+    background-color: #E74631;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    z-index: -1;
+}
+#phoneScene08 .coolButton:after {
+    content: '';
+    width: 21px;
+    height: 21px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 4.1px;
+    left: 123px;
+    background-color: #E74631;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    z-index: -1;
+}
+
+#phoneScene08 .bottom{
+    top: 6px;
+    z-index: -2;
+    background-color: #C63228;
+}
+#phoneScene08 .bottom:before{
+    background-color: #C63228;
+    border-left: 0px solid #000;
+}
+
+#phoneScene08 .bottom:after{
+    background-color: #C63228;
+    border-top: 0px solid #000;
+}
+#phoneScene08 .line {
+    top: 15px;
+    left: -16px;
+    position: absolute;
+    width: 165px;
+    height: 8px;
+    background-color: #C63228;
+    z-index: -4;
+}
+#phoneScene08 .line:before{
+    content: '';
+    width: 1px;
+    height: 8px;
+    background-color: #000;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#phoneScene08 .line:after{
+    content: '';
+    width: 1px;
+    height: 8px;
+    background-color: #000;
+    position: absolute;
+    left: 164.5px;
+    top: 0px;
+}
+
+
+
+#phoneScene08 .red{
+    background-color: #E74631;
+    color: #fff;
+    transition: all 0.5s;
+}
+#phoneScene08 .red:before{
+    background-color: #E74631;
+    transition: all 0.5s;
+}
+#phoneScene08 .red:after{
+    background-color: #E74631;
+    transition: all 0.5s;
+}
+#phoneScene08 .red .bottom{
+    background-color: #C63228;
+    transition: all 0.5s;
+}
+#phoneScene08 .red .bottom:before{
+    background-color: #C63228;
+    transition: all 0.5s;
+}
+#phoneScene08 .red .bottom:after{
+    background-color: #C63228;
+    transition: all 0.5s;
+}
+#phoneScene08 .red .line{
+    background-color: #C63228;
+    transition: all 0.5s;
+}
 
 
 
 
-
-
-
-
-
-
+#phoneScene08 .white{
+    background-color: #fff;
+    color: #000;
+    transition: all 0.5s;
+}
+#phoneScene08 .white:before{
+    background-color: #fff;
+    transition: all 0.5s;
+}
+#phoneScene08 .white:after{
+    background-color: #fff;
+    transition: all 0.5s;
+}
+#phoneScene08 .white .bottom{
+    background-color: #EEEEEE;
+    transition: all 0.5s;
+}
+#phoneScene08 .white .bottom:before{
+    background-color: #EEEEEE;
+    transition: all 0.5s;
+}
+#phoneScene08 .white .bottom:after{
+    background-color: #EEEEEE;
+    transition: all 0.5s;
+}
+#phoneScene08 .white .line{
+    background-color: #EEEEEE;
+    transition: all 0.5s;
+}
 
 
 
@@ -1633,6 +1781,7 @@ body {
   width: 54.96px;
   left: 159.65px;
   top: 118.67px;
+  z-index: -1;
 }
 #phoneScene09 .svg09Text09Left {
   position: absolute;

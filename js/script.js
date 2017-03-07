@@ -419,6 +419,153 @@ $(document).ready(function() {
              .from("#phoneScene07 .BottomText", 0.4, BottomTextParameter);
 
 
+      tlScene08.call(function() {tlScene08heading.play(0);}, null, null, 0)
+              .call(function() {tlScene08china.pause(0);}, null, null, 0)
+              .call(function() {tlScene08bottomText.pause(0);}, null, null, 0)
+              .call(function() {tlScene08japan.pause(0);}, null, null, 0)
+
+              .call(function() {tlScene08china.play(0);}, null, null, 1.5)
+              .call(function() {tlScene08bottomText.play(0);}, null, null, 2.5);
+
+
+
+
+      tlScene08heading.from("#phoneScene08 .topLine", 0.6, topLineParameter, 0.5)
+                            .from("#phoneScene08 .bottomLine", 0.6, bottomLineParameter, 0.5)
+                            .from("#phoneScene08 .Heading", 0.3, HeadingParameter, 0.7)
+          .from(["#phoneScene08 .svg08ButtonChina", "#phoneScene08 .svg08ButtonJapan"], 0.4, {opacity: 0, y: 30}, 0.8)
+          .from("#phoneScene08 .svg08Taiwan", 0.4, {opacity: 0, y: 30}, 1)
+                            .from("#phoneScene08 .svg08PeopleLeft", 0.4, {opacity: 0, x: -20}, 1.2);
+
+      tlScene08china.from("#phoneScene08 .svg08BrownTaipei", 0.3, { scale: 0, transformOrigin: '50% 50%', ease: Back.easeOut.config(1.7) })
+                          .from("#phoneScene08 .svg08LineTaipeiTooltipChina", 0.3, { scaleX: 0, ease: Back.easeOut.config(1.7) }, 0.1)
+                        .from("#phoneScene08 .svg08BrownTaipeiTooltipChina", 0.3, { scale: 0, transformOrigin: '0% 50%' }, 0.2)
+          .call(animateNumberIncreasing, ["#phoneScene08 .svg08NumberChina4", 4.259, 3, 'numberWithComma'], null, 0.3)
+                                                  .call(animateNumberIncreasing, ["#phoneScene08 .svg08NumberChina3", 3.068, 3, 'numberWithComma'], null, 0.3)
+
+          .from("#phoneScene08 .svg08BrownTaoyuan", 0.3, { scale: 0, transformOrigin: '50% 50%', ease: Back.easeOut.config(1.7) }, 0.2)
+                        .from("#phoneScene08 .svg08LineTaoyuanTooltip", 0.3, { scaleX: 0, ease: Back.easeOut.config(1.7) }, 0.3)
+                        .from("#phoneScene08 .svg08BrownTaoyuanTooltip", 0.3, { scale: 0, transformOrigin: '0% 50%' }, 0.4)
+                        .call(animateNumberIncreasing, ["#phoneScene08 .svg08NumberChina1", 1.644, 3, 'numberWithComma'], null, 0.5)
+
+          .from("#phoneScene08 .svg08BrownTaitung", 0.3, { scale: 0, transformOrigin: '50% 50%', ease: Back.easeOut.config(1.7) }, 0.3)
+                        .from("#phoneScene08 .svg08LineTaitungTooltip", 0.3, { scaleX: 0, ease: Back.easeOut.config(1.7) }, 0.4)
+                        .from("#phoneScene08 .svg08BrownTaitungTooltip", 0.3, { scale: 0, transformOrigin: '0% 50%' }, 0.5)
+                        .call(animateNumberIncreasing, ["#phoneScene08 .svg08NumberChina2", 3.704, 3, 'numberWithComma'], null, 0.6)
+
+          .from("#phoneScene08 .svg08BrownKaohsiung", 0.3, { scale: 0, transformOrigin: '50% 50%', ease: Back.easeOut.config(1.7) }, 0.4)
+                        .from("#phoneScene08 .svg08LineKaohsiungTooltip", 0.3, { scaleX: 0, ease: Back.easeOut.config(1.7) }, 0.5)
+                        .from("#phoneScene08 .svg08BrownKaohsiungTooltip", 0.3, { scale: 0, transformOrigin: '0% 50%' }, 0.6)
+                        .call(animateNumberIncreasing, ["#phoneScene08 .svg08NumberChina5", 2.169, 3, 'numberWithComma'], null, 0.7);
+
+
+      tlScene08japan.from("#phoneScene08 .svg08BrownTaipei", 0.3, { scale: 0, transformOrigin: '50% 50%', ease: Back.easeOut.config(1.7) })
+                          .from("#phoneScene08 .svg08LineTaipeiTooltipJapan", 0.3, { scaleX: 0, ease: Back.easeOut.config(1.7) }, 0.1)
+                        .from("#phoneScene08 .svg08BrownTaipeiTooltipJapan", 0.3, { scale: 0, transformOrigin: '0% 50%' }, 0.2)
+                        .call(animateNumberIncreasing, ["#phoneScene08 .svg08NumberJapan1", 3.722, 3, 'numberWithComma'], null, 0.3)
+                                                  .call(animateNumberIncreasing, ["#phoneScene08 .svg08NumberJapan2", 3.917, 3, 'numberWithComma'], null, 0.3)
+                                                  .call(animateNumberIncreasing, ["#phoneScene08 .svg08NumberJapan3", 2.660, 3, 'numberWithComma'], null, 0.3)
+                                                  .call(animateNumberIncreasing, ["#phoneScene08 .svg08NumberJapan4", 5.732, 3, 'numberWithComma'], null, 0.3)
+                                                  .call(animateNumberIncreasing, ["#phoneScene08 .svg08NumberJapan5", 3.286, 3, 'numberWithComma'], null, 0.3);
+
+      tlScene08bottomText.from("#phoneScene08 .BottomText", 0.4, BottomTextParameter);
+      
+      var scene08State = "changing";
+      var $ButtonChina = $("#phoneScene08 .svg08ButtonChina");
+      var $ButtonJapan = $("#phoneScene08 .svg08ButtonJapan");
+
+
+      $ButtonChina.on('click', function(e){
+          if(scene08State == "chinaComplete") {
+
+          } else if (scene08State == "japanComplete") {
+
+              scene08State = "changing";
+
+              //change button color
+              chinaClickedButtonColorChange();
+              //change button color
+
+              tlScene08japan.reverse();
+              TweenMax.delayedCall(0.4, function() {
+                  tlScene08china.play(0);
+                  scene08State = "chinaComplete";
+              }); //play tlScene08china
+
+          }
+
+      });
+
+
+      $ButtonJapan.on('click', function(e){
+
+
+
+          if(scene08State == "chinaComplete") {
+              scene08State = "changing";
+
+              //change button color
+              japanClickedButtonColorChange();
+              //change button color
+              //
+              tlScene08china.reverse();
+              TweenMax.delayedCall(0.8, function() {
+                  tlScene08japan.play(0);
+                  scene08State = "japanComplete";
+              });  //play tlScene08japan
+
+          } else if (scene08State == "japanComplete") {
+
+          }
+      });
+
+      function chinaClickedButtonColorChange() {
+          $ButtonJapan.toggleClass( "red" );
+          $ButtonJapan.toggleClass( "white" );
+          $ButtonChina.toggleClass( "white" );
+          $ButtonChina.toggleClass( "red" );
+      }
+
+      function japanClickedButtonColorChange() {
+          $ButtonChina.toggleClass( "red" );
+          $ButtonChina.toggleClass( "white" );
+          $ButtonJapan.toggleClass( "white" );
+          $ButtonJapan.toggleClass( "red" );
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
     tlScene09.from("#phoneScene09 .topLine", 0.6, topLineParameter, 0.5)
              .from("#phoneScene09 .bottomLine", 0.6, bottomLineParameter, 0.5)
              .from("#phoneScene09 .Heading", 0.3, HeadingParameter, 0.7)
@@ -552,13 +699,13 @@ $(document).ready(function() {
             tlScene07.pause();
             break;
           case 8:
-            // tlScene08heading.pause();
-            // tlScene08china.pause();
-            // tlScene08bottomText.pause();
-            // tlScene08japan.pause();
-            // tlScene08.pause();
-            // scene08State = "chinaComplete";
-            // chinaClickedButtonColorChange();
+             tlScene08heading.pause();
+             tlScene08china.pause();
+             tlScene08bottomText.pause();
+             tlScene08japan.pause();
+             tlScene08.pause();
+             scene08State = "chinaComplete";
+             chinaClickedButtonColorChange();
             break;
           case 9:
             tlScene09.pause();
@@ -590,11 +737,11 @@ $(document).ready(function() {
             tlScene07.play(0);
             break;
           case 8:
-          // scene08State = "changing";
-          //   tlScene08.play(0);
-          //   TweenMax.delayedCall(2.7, function() {
-          //     scene08State = "chinaComplete";
-          //   });
+           scene08State = "changing";
+             tlScene08.play(0);
+             TweenMax.delayedCall(2.7, function() {
+               scene08State = "chinaComplete";
+             });
             break;
           case 9:
             tlScene09.play(0);
