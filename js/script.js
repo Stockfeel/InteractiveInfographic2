@@ -433,7 +433,7 @@ $(document).ready(function() {
       tlScene08heading.from("#phoneScene08 .topLine", 0.6, topLineParameter, 0.5)
                             .from("#phoneScene08 .bottomLine", 0.6, bottomLineParameter, 0.5)
                             .from("#phoneScene08 .Heading", 0.3, HeadingParameter, 0.7)
-          .from(["#phoneScene08 .svg08ButtonChina", "#phoneScene08 .svg08ButtonJapan"], 0.4, {opacity: 0, y: 30}, 0.8)
+          .from("#phoneScene08 .svg08Buttons", 0.4, {opacity: 0, y: 30}, 0.8)
           .from("#phoneScene08 .svg08Taiwan", 0.4, {opacity: 0, y: 30}, 1)
                             .from("#phoneScene08 .svg08PeopleLeft", 0.4, {opacity: 0, x: -20}, 1.2);
 
@@ -520,17 +520,27 @@ $(document).ready(function() {
       });
 
       function chinaClickedButtonColorChange() {
-          $ButtonJapan.toggleClass( "red" );
-          $ButtonJapan.toggleClass( "white" );
-          $ButtonChina.toggleClass( "white" );
-          $ButtonChina.toggleClass( "red" );
+          if ($ButtonChina.hasClass( "red" )) {
+              
+          } else {
+              $ButtonJapan.toggleClass( "red" );
+              $ButtonJapan.toggleClass( "white" );
+              $ButtonChina.toggleClass( "white" );
+              $ButtonChina.toggleClass( "red" );
+          }
+
       }
 
       function japanClickedButtonColorChange() {
-          $ButtonChina.toggleClass( "red" );
-          $ButtonChina.toggleClass( "white" );
-          $ButtonJapan.toggleClass( "white" );
-          $ButtonJapan.toggleClass( "red" );
+          if ($ButtonJapan.hasClass( "red" )) {
+
+          } else {
+              $ButtonChina.toggleClass( "red" );
+              $ButtonChina.toggleClass( "white" );
+              $ButtonJapan.toggleClass( "white" );
+              $ButtonJapan.toggleClass( "red" );
+          }
+
       }
       
       

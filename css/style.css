@@ -1473,14 +1473,21 @@ body {
   text-align: center;
   top: 25%;
 }
-#phoneScene08 .svg08ButtonChina {
+#phoneScene08 .svg08Buttons {
+    position: absolute;
     left: 28px;
     top: 79.32px;
+}
+#phoneScene08 .svg08ButtonChina {
+/*
+    left: 28px;
+    top: 79.32px;
+*/
     
 }
 #phoneScene08 .svg08ButtonJapan {
-    left: 212px;
-    top: 79.32px;
+    left: 180px;
+/*    top: 79.32px;*/
 }
 #phoneScene08 .coolButton {
     position: absolute;
@@ -1630,6 +1637,51 @@ body {
 #phoneScene08 .white .line{
     background-color: #EEEEEE;
     transition: all 0.5s;
+}
+
+
+
+#phoneScene08 .tooltipText {
+    position: absolute;
+    left: 50px;
+    top: -8px;
+}
+#phoneScene08 .tooltipText + .tooltipText {
+    position: absolute;
+    top: 54px;
+}
+#phoneScene08 .tooltipText + .tooltipText:nth-child(2) {
+    position: absolute;
+    top: 54px;
+}
+#phoneScene08 .tooltipText + .tooltipText:nth-child(3) {
+    position: absolute;
+    top: 116px;
+}
+#phoneScene08 .tooltipText + .tooltipText:nth-child(4) {
+    position: absolute;
+    top: 175px;
+}
+#phoneScene08 .tooltipText + .tooltipText:nth-child(5) {
+    position: absolute;
+    top: 240px;
+}
+
+#phoneScene08 .tooltipText h3 {
+/*    position: absolute;*/
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+#phoneScene08 .tooltipText p {
+/*    position: absolute;*/
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #999;
+    margin-top: -20px;
 }
 
 
