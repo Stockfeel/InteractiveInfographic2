@@ -679,8 +679,8 @@ $(document).ready(function() {
         '中國選擇購物，日本選擇住宿'
       ],
       afterRender: function() {
-        // TweenMax.to('.spinner', 1, { autoAlpha: 0 });
-        // TweenMax.set(['#wrapper', '#fp-nav'], { opacity: 1 });
+         TweenMax.to('.spinner', 1, { autoAlpha: 0 });
+          TweenMax.set(['#fullpagePhoneScenes', '#fp-nav'], { opacity: 1 });
 
         tlScene01.play(0);
       },
