@@ -3,6 +3,14 @@ body {
   font-family: 'Lato', 'Heiti TC', '儷黑 Pro', 'LiHei Pro', '微軟正黑體', 'Microsoft JhengHei';
   font-style: normal;
   line-height: 1.5em;
+    
+    
+/*    safari blur problem*/
+    filter: none; 
+    -webkit-filter: blur(0px); 
+    -moz-filter: blur(0px); 
+    -ms-filter: blur(0px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
 }
 
 
