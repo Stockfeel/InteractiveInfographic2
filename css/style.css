@@ -6,16 +6,9 @@ body {
 }
 
 
-/*html,
-body {
-  margin : 0;
-  padding: 0;
-  height : 100%;
-}*/
-
 ::selection {
-  background: #E74631;
-  color: #fff;
+    background: #E74631;
+    color: #fff;
 }
 
 
@@ -26,11 +19,14 @@ body {
 #fullpagePhoneScenes {
     opacity: 0;
 }
+#fullpageWebScenes {
+    opacity: 0;
+}
 
 /*讀取畫面*/
 .spinner {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -39,6 +35,14 @@ body {
     height: 150px;
     border-radius: 50%;
     animation: fadeIn 1s infinite;
+    margin: 0 auto;
+    display: block;
+}
+.spinner p {
+
+    color: #49BCB8;
+    font-size: 30px;
+
 }
 @keyframes fadeIn {
     0% {
@@ -60,18 +64,32 @@ body {
 
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
-  background: #E74631;
+    background: #E74631;
 }
 
 
 /* 導覽列tooltip */
 
 #fp-nav ul:hover .fp-tooltip {
-  color: #E74631;
-  font-family: 'Lato', 'Heiti TC', '儷黑 Pro', 'LiHei Pro', '微軟正黑體', 'Microsoft JhengHei';
-  font-size: 16px;
-  margin-top: -4px;
+    color: #E74631;
+    font-family: 'Lato', 'Heiti TC', '儷黑 Pro', 'LiHei Pro', '微軟正黑體', 'Microsoft JhengHei';
+    font-size: 16px;
+    margin-top: -4px;
 }
+
+
+/*網頁版CSS------------------------------------------------------------------------------------*/
+.fp-tableCell {
+    display: block;
+}
+.webSceneContainer {
+    height: 100%;
+}
+
+
+
+
+/*手機版CSS------------------------------------------------------------------------------------*/
 
 .sceneContainer {
   width: 375px;
