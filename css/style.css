@@ -6,11 +6,13 @@ body {
     
     
 /*    safari blur problem*/
-    filter: none; 
-    -webkit-filter: blur(0px); 
-    -moz-filter: blur(0px); 
-    -ms-filter: blur(0px);
-    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+    filter: none !important; 
+    -webkit-filter: blur(0px) !important; 
+    -moz-filter: blur(0px) !important; 
+    -ms-filter: blur(0px) !important;
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0') !important;
+/*    backface-visibility: hidden;*/
+/*    -webkit-font-smoothing: subpixel-antialiased;*/
 }
 
 
