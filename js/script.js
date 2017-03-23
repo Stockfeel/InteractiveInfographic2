@@ -37,7 +37,7 @@ $(document).ready(function() {
     $(window).on('resize', function () {
         resizePhoneScenes();
     });
-
+      CSSPlugin.defaultForce3D = false; 
 
 
     var tlScene01 = new TimelineMax({
@@ -116,7 +116,6 @@ $(document).ready(function() {
                .from("#phoneScene01 .BottomText", 0.4, BottomTextParameter, 7.1)
 
                .from("#phoneScene01 .svg01ScrollDown", 0.4, { y: 10, opacity: 0 }, 7.4);
-
 
       tlScene02.from("#phoneScene02 .topLine", 0.6, topLineParameter, 0.5)
                .from("#phoneScene02 .bottomLine", 0.6, bottomLineParameter, 0.5)
